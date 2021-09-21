@@ -161,6 +161,7 @@ a{
     margin-left:20px;
 }
 #footer .col-contacts{
+    max-height: 50px;
     margin-top:20px;
 }
 #footer .col-contacts a{
