@@ -140,7 +140,15 @@ a{
     border-radius:8px;
 }
 #news .text-btn{
+    background-color:#ede0d4;
+    border-color: #000;
     font-size: 20px;
+    text-transform: uppercase;
+    color:#000;
+}
+#news .text-btn:hover{
+    background-color:#86340A;
+    border-color: #86340A;
 }
 #footer{
     background-color: #b08968;
