@@ -1,0 +1,201 @@
+
+*{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+body{
+    background-color: #e6ccb2 !important;
+}
+a{
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+#navbar{
+    background-color: #ede0d4;
+    
+    padding: 40px;
+}
+.button-item{
+    width: 100%;
+    padding: 0 5px;
+}
+.button-item .btn-primary{
+    width: 100%;
+    padding: 15px 0;
+    border-radius:25px;
+    text-transform: uppercase;
+    color:#ffffff;
+    background-color:#7f5539;
+    border-color: #7f5539;
+}
+.button-item .btn-primary:hover{
+    background-color: #ddb892;
+    color:#000;
+    border-color: #000;
+}
+.button-item .btn-outline-secondary{
+    width: 100%;
+    padding: 15px 0;
+    border-radius:25px;
+    text-transform: uppercase;
+    background-color: #e6ccb2;
+    border-color: #000;
+    color:#000;
+}
+.button-item .btn-outline-secondary:hover{
+    color:#000;
+    background-color:#7f5539;
+    border-color: #7f5539;
+    color:#ffffff;
+}
+.menu{
+    display:flex;
+    align-items: center;
+}
+.menu .item-menu{
+    color:#7f5539;
+}
+.form-horizontal{
+  padding-top:150px;  
+}
+.owl-carousel{
+    margin-top:100px !important;
+}
+.center-line{
+    border: 3px solid #000;
+  
+}
+.carousel-text{
+    font-weight: bold;
+    font-size:30px;
+}
+.owl-nav {
+   display:none;
+}
+.buttons-products{
+    display:flex;
+    justify-content:space-between;
+}
+
+.container-cards img{
+    border-radius:20px;
+}
+#product-cards{
+    padding-bottom:150px;
+}
+#product-cards h3{
+    font-weight:bold;
+}
+#product-cards span{
+    font-size: 20px;
+}
+.container-cards{
+    cursor:pointer;
+}
+.container-cards:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.modal-content{
+    border-radius:20px !important;
+}
+#modais li{
+    list-style:none;
+}
+#modais .lista-itens{
+    margin-top:20px !important;
+}
+#modais .btn-primary{
+    width:40%;
+    padding: 15px 0;
+    border-radius:25px;
+    text-transform: uppercase;
+    color:#ffffff;
+    background-color:#7f5539;
+    border-color: #7f5539;
+}
+#modais .btn-primary:hover{
+    background-color: #ede0d4;
+    color:#000;
+    border-color: #000;
+}
+#news{
+    background-color: #7f5539;
+    padding-bottom:20px;
+}
+#news input{
+    padding:10px;
+    margin-top:5px;
+    border-radius:8px;
+}
+#news .input-group{
+    outline: none;
+}
+#news .btn{
+    margin-top:5px;
+    width: 60%;
+    padding:8px;
+    border-radius:8px;
+}
+#news .text-btn{
+    font-size: 20px;
+}
+#footer{
+    background-color: #b08968;
+}
+#footer .col-lista{
+    margin-top:20px;
+}
+#footer li{
+    list-style: none;
+}
+#footer .btn-products{
+    font-size:0.9rem;
+    margin-bottom:5px;
+    color:#e5e5e5;
+}
+#footer h4{
+    font-size:1.5rem;
+    margin-left:20px;
+}
+#footer .col-contacts{
+    margin-top:20px;
+}
+#footer .col-contacts a{
+    
+    color:#000;
+}
+
+#flutuante-button a{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+}
+#flutuante-button i{
+    margin-top:16px;
+}
+/*mobile*/
+@media(max-width: 576px){
+    .item-menu{
+    display:none;
+    }
+    .button-item{
+        display:none;
+    }
+    .imagem-logo{
+        display: flex;
+        align-items: center;
+        width:100%;
+    }
+}

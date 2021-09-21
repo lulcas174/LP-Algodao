@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--icone em cima do title-->
+        <link rel="icon" type="image/png" href="./Logo-Doce-Mel.png"/>
+
+        <title>Algodão Doce Mel</title>
+        <!--import css-->
+        <link rel="stylesheet" href="./static/style/TelaUsuario.css">
+        <!--Import bootstrap CSS-->
+        <link rel="stylesheet" href="./static/bootstrapCSS/bootstrap.css">
+        <!--import font-family-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500&display=swap" rel="stylesheet">
+        <!--OWL carousel CSS-->
+        <link rel="stylesheet" href="./static/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+        <!--Icones-->
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav  id="navbar">
+            <div  class="container">
+               <div  class="row menu-content">
+                  <div  class="col-lg-2 text-center">
+                     <div  class="logo">
+                         <h2>INSIRA LOGO</h2>
+                        <!-- <img src="logo"  class=" imagem-logo img-fluid"> -->
+                        </div>
+                  </div>
+                  <div  class="col-lg-10">
+                     <div  class="container-fluid">
+                        <div  class="row menu text-center">
+                           <div class="col-lg-2"><a  href="" class="item-menu">HOME</a></div>
+                           <div class="col-lg-2"><a  href="" class="item-menu">PRODUTOS</a></div>
+                           <div class="col-lg-2"><a  href="" class="item-menu">CONTATO</a></div>
+                           <div class="col-lg-2"><a  href="" class="item-menu">SOBRE</a></div>
+                           <div class="col-lg-4">
+                              <div  class="container">
+                                 <div  class="row">
+                                    <div  class="col-lg-6 button-item"><a  class="btn btn-outline-secondary">cadastre-se</a></div>
+                                    <div  class="col-lg-6 button-item"><a  class="btn btn-primary " href="./form.html">Entrar</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <section class="carousel">
+           <div class="container">
+               <div class="row ">
+                    <div class="owl-carousel owl-theme ">
+                        <div class="item text-center">
+                            <img src="./static/images/mockImage.jpg" alt="" class="img-fluid">
+                            <span class="carousel-text">texto teste 1</span>
+                        </div>
+                        <div class="item text-center">
+                            <img src="./static/images/mockImage.jpg" alt="" class="img-fluid">
+                            <span class="carousel-text">texto teste 1</span>
+                        </div>
+                        <div class="item text-center">
+                            <img src="./static/images/mockImage.jpg" alt="" class="img-fluid">
+                            <span class="carousel-text">texto teste 1</span>
+                        </div>
+                    </div>
+               </div>
+           </div>
+         </section>
+        
+         <div class="container">
+             <div class="row">
+                 <div class="col-sm-12">
+                     <hr class="center-line">
+                 </div>
+             </div>
+         </div>
+
+        <section id="product-cards">
+           <div class="container">
+            <h3>PRODUTOS:</h3>
+            <span>(Clique no produto para mais informações)</span>
+               <div class="container-fluid cards-container text-center">
+                   <div class="row">
+                       <div class="col-sm-4 mt-3">
+                           <div class="container-cards">
+                            <img src="./static/images/mockImage.jpg" alt="" class="img-fluid">
+                           </div>
+                       </div>
+                       <div class="col-sm-4 mt-3">
+                            <div class="container-cards" >
+                                <img src="./static/images/mockImage.jpg" alt="" class="img-fluid">
+                            </div>
+                       </div>
+                       <div class="col-sm-4 mt-3 ">
+                        <div class="container-cards">
+                         <img src="./static/images/mockImage.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-4  mt-3">
+                        <div class="container-cards">
+                         <img src="./static/images/mockImage.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div> 
+                    <div class="col-sm-4  mt-3">
+                        <div class="container-cards">
+                         <img src="./static/images/mockImage.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>     
+                    <div class="col-sm-4  mt-3">
+                        <div class="container-cards">
+                         <img src="./static/images/mockImage.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>                    
+                   </div>
+               </div>
+           </div>
+        </section>
+
+        <section id="modais">
+            <div class="modal " tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Pedido</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <img src="./static/images/mockImage.jpg" alt="" class="img-fluid">
+                    <ul class="lista-itens">
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Realizar pedido</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+        </section>
+
+
+
+    
+        
+        <section id="news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 mt-3">
+                        <h4>Title</h4>
+                        <span>Texto embaixo do title</span>
+                    </div>
+                    <div class="col-sm-3 mt-3">
+                        <input class="input-group" type="text" placeholder="insira seu nome">
+                    </div>
+                    <div class="col-sm-3 mt-3">
+                        <input class="input-group" type="email" placeholder="insira seu email">
+                    </div>
+                    <div class="col-sm-3 mt-3">
+                        <button class="btn btn-primary text-btn">Envie</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lista">
+                        <h4 class="ml-3">Lorem Ipsum is simply dummy text of the printing and typesettin</h4>
+                        <ul>
+                           <a href="" class="btn-products">
+                               <li>Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+                            </a> 
+                            <a href="" class="btn-products">
+                               <li>Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+                            </a> 
+                            <a href="" class="btn-products">
+                               <li>Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+                            </a> 
+                            <a href="" class="btn-products">
+                               <li>Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+                            </a> 
+                            <a href="" class="btn-products">
+                               <li>Lorem Ipsum is simply dummy text of the printing and typesettin</li>
+                            </a> 
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-contacts text-center">
+                        <h4>Contacts</h4>
+                        <ul>
+                            <a href="">
+                                <li>
+                                   <i class="fab fa-github fa-lg"></i> Github
+                                </li>
+                             </a>
+                            <a href="">
+                                <li><i class="fab fa-linkedin fa-lg"></i> Linkedin</li>
+                            </a>
+                            <a href="">
+                                <li><i class="fab fa-twitter fa-lg"></i> Twitter</li>
+                            </a>
+                                </ul>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        
+        <section id='flutuante-button'>
+            <a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" target="_blank"><i class="fab fa-whatsapp"></i>
+            </a>
+        </section>
+
+        <!---cdn jquery import-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <!--Import bootstrap JS-->
+    <script src="./static/bootstrapJS/bootstrap.js"></script>
+    <!--OWL CAROUSEL JS-->
+    <script src="./static/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+     <!--OWL CAROUSEL JS-->
+    <script src="./static/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    
+  <script src="./static/JS/script.js"></script>
+    </body>
+
+
+</html>
